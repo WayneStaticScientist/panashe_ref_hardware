@@ -1,0 +1,16 @@
+{
+  "name": "panashe_ref_hardware",
+  "version": "1.0.0",
+  "main": "site.config.js",
+  "scripts": {
+    "start": "nanogen start",
+    "build": "nanogen build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nanogen": "^0.4.6"
+  }
+}

@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "flaticon";
+  src: url("flaticone3ae.woff2?7d4da66f210334deefae0e09eaa93c38") format("woff2"), url("flaticone3ae.woff?7d4da66f210334deefae0e09eaa93c38") format("woff"), url("flaticone3ae.eot?7d4da66f210334deefae0e09eaa93c38#iefix") format("embedded-opentype"), url("flaticone3ae.ttf?7d4da66f210334deefae0e09eaa93c38") format("truetype"), url("flaticone3ae.svg?7d4da66f210334deefae0e09eaa93c38#flaticon") format("svg");
+}
+i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-viber:before {
+  content: "\f101";
+}
+
+.flaticon-airplane:before {
+  content: "\f102";
+}
+
+.flaticon-road-freight:before {
+  content: "\f103";
+}
+
+.flaticon-ocean-freight:before {
+  content: "\f104";
+}
+
+.flaticon-verified:before {
+  content: "\f105";
+}
+
+.flaticon-supply-chain:before {
+  content: "\f106";
+}
+
+.flaticon-right-arrow:before {
+  content: "\f107";
+}
+
+.flaticon-shipping:before {
+  content: "\f108";
+}
+
+.flaticon-magnifying-glass:before {
+  content: "\f109";
+}
+
+.flaticon-down-arrow:before {
+  content: "\f10a";
+}
+
+.flaticon-facebook-app-symbol:before {
+  content: "\f10b";
+}
+
+.flaticon-twitter:before {
+  content: "\f10c";
+}
+
+.flaticon-linkedin-big-logo:before {
+  content: "\f10d";
+}
+
+.flaticon-instagram:before {
+  content: "\f10e";
+}
+
+.flaticon-left-chevron:before {
+  content: "\f10f";
+}
+
+.flaticon-left-arrow:before {
+  content: "\f110";
+}
+
+.flaticon-right-chevron:before {
+  content: "\f111";
+}
+
+.flaticon-up-right-arrow:before {
+  content: "\f112";
+}
+
+.flaticon-arrow:before {
+  content: "\f113";
+}
+
+.flaticon-cruise:before {
+  content: "\f114";
+}
+
+.flaticon-cargo-ship:before {
+  content: "\f115";
+}
+
+.flaticon-top:before {
+  content: "\f116";
+}
+
+.flaticon-logistics:before {
+  content: "\f117";
+}
+
+.flaticon-menu:before {
+  content: "\f118";
+}
+
+.flaticon-quotation:before {
+  content: "\f119";
+}
+
+.flaticon-cloud-download:before {
+  content: "\f11a";
+}/*# sourceMappingURL=flaticon.css.map */
