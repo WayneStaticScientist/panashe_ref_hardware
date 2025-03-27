@@ -2,7 +2,9 @@
   font-family: "flaticon";
   src: url("flaticone3ae.woff2?7d4da66f210334deefae0e09eaa93c38") format("woff2"), url("flaticone3ae.woff?7d4da66f210334deefae0e09eaa93c38") format("woff"), url("flaticone3ae.eot?7d4da66f210334deefae0e09eaa93c38#iefix") format("embedded-opentype"), url("flaticone3ae.ttf?7d4da66f210334deefae0e09eaa93c38") format("truetype"), url("flaticone3ae.svg?7d4da66f210334deefae0e09eaa93c38#flaticon") format("svg");
 }
-i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
+
+i[class^=flaticon-]:before,
+i[class*=" flaticon-"]:before {
   font-family: flaticon !important;
   font-style: normal;
   font-weight: normal !important;
@@ -15,6 +17,10 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 
 .flaticon-viber:before {
   content: "\f101";
+}
+
+.flaticon-sun:before {
+  content: "\U+2600";
 }
 
 .flaticon-airplane:before {
@@ -115,4 +121,6 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 
 .flaticon-cloud-download:before {
   content: "\f11a";
-}/*# sourceMappingURL=flaticon.css.map */
+}
+
+/*# sourceMappingURL=flaticon.css.map */
