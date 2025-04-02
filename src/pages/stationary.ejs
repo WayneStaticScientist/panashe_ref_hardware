@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+<%- include('partials/sidebar') %>
+<%- include('partials/banner', {
+    title : 'Stationary',
+})  %>
+<div class="cs-section-height"></div>
+<%- include('partials/blog', {
+    title : 'Stationary',
+    desc: "We provide high-quality Stationery products for your office and personal needs",
+    img: "/projects/stationary.jpg",
+    items : ["Books",
+    "Covers",
+    "Rules",
+    "Pens",
+    "markets",
+    "Sets",
+    "...more"],
+    services : `Unleash your creativity and organize your life with our curated collection of stationery. From elegant notebooks and vibrant pens to essential office supplies and charming decorative items, we have everything you need to bring your ideas to life. Whether you're a student, artist, professional, or simply someone who appreciates the beauty of well-crafted stationery, you'll find inspiration and quality in every piece we offer.`
+})  %>
+<%- include('partials/footer') %>

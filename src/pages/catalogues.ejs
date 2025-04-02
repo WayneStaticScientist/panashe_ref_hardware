@@ -1,0 +1,94 @@
+<% const catalogues = [
+{
+    name: "Solar",
+    desc: "We provide Solar Products and Services",
+    img: "/projects/solar.jpg",
+    path : "/solar"
+},
+{
+    name: "Lubrication n motor service kits",
+    desc: "We provide Lubrication and Motor Service Kits, ensuring top-notch quality and reliability for your needs",
+    img: "/projects/lubrication.jpg",
+    path :"/lubrication"
+},
+{
+    name: "Stationary ",
+    desc: "We provide high-quality Stationery products for your office and personal needs",
+    img: "/projects/stationary.jpg",
+    path : "/stationary"
+},
+{
+    name: "Tools n hardware ",
+    desc: "Offering premium Tools and Hardware solutions for all your needs",
+    img: "/projects/tools.jpg",
+    path : "/tools"
+},
+{
+    name: "Personal protection equipment (PPE)",
+    desc: `Explore our wide range of Personal Protection Equipment (PPE), designed to ensure safety and comfort in every environment.`,
+    img: "/projects/protection.jpg",
+    path : "/protection"
+},
+{
+    name: "HYPER kitchenware",
+    desc: "Discover our premium HYPER kitchenware, combining style and functionality for your culinary needs",
+    img: "/projects/kitchen.jpg",
+    path : "/kitchenware"
+}
+] %>
+<%- include('partials/header') %>
+<%- include('partials/sidebar') %>
+<%- include('partials/banner', {
+    title : 'Catalogues',
+})  %>
+<div class="cs-section-height"></div>
+<section>
+    <div class="cs-blog-section-wrapper blog-style-1">
+      <div class="cs-blog-content-container">
+        <!-- Content Area -->
+        <div class="container">
+          <div class="row cs-blog-items-container cs-item6-cal2">
+            <% catalogues.forEach(function(item) { %>
+            <div class="col-lg-6">
+              <div class="cs-blog-item">
+                <div class="cs-blog-img-area">
+                  <div class="cs-blog-img">
+                    <div class="cs-img-anim-wrap">
+                      <div class="cs-img-anim-img">
+                        <a href="<%= item.path %>" class="cs-img-anim-img-in">
+                          <img src="<%= item.img %>" alt="blog" />
+                          <img src="<%= item.img %>" alt="blog" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="cs-blog-content">
+                  <div class="cs-blog-title">
+                    <a href="<%= item.path %>">
+                      <h5><%= item.name %></h5>
+                    </a>
+                  </div>
+                  <div class="cs-blog-excerpt-text">
+                    <p>
+                        <%= item.desc %>
+                    </p>
+                  </div>
+                  <div class="cs-blog-btn">
+                    <a href="<%= item.path %>" class="cs-text_b_line"><span>Read More</span>
+                      <i class="flaticon-right-arrow"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <% }) %>
+          </div>
+        </div>
+        <!-- End Content Area -->
+      </div>
+    </div>
+  </section>
+  <div class="cs-sec-title-height"></div>
+  <%- include('partials/footer') %>

@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+<%- include('partials/sidebar') %>
+<%- include('partials/banner', {
+    title : 'Tools n hardware ',
+})  %>
+<div class="cs-section-height"></div>
+<%- include('partials/blog', {
+    title : 'Tools n hardware ',
+    desc: "Offering premium Tools and Hardware solutions for all your needs",
+    img: "/projects/tools.jpg",
+    items : ["Hammers",
+    "Wrenches ",
+    "Drills ",
+    "Grinders",
+    "Anchors and fasteners"],
+    services : `We are your trusted source for a comprehensive range of high-quality tools and hardware. From essential hand tools and powerful machinery to durable building materials and safety equipment, we provide everything you need for construction, renovation, and maintenance projects of any scale. Our commitment to quality and reliability ensures that you have access to the best tools and hardware, backed by expert advice and exceptional customer service. We empower professionals and DIY enthusiasts alike with the right tools to get the job done right.`
+})  %>
+<%- include('partials/footer') %>

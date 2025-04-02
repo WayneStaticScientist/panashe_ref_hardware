@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+<%- include('partials/sidebar') %>
+<%- include('partials/banner', {
+    title : 'HYPER kitchenware',
+})  %>
+<div class="cs-section-height"></div>
+<%- include('partials/blog', {
+    title : 'HYPER kitchenware',
+    desc: "Discover our premium HYPER kitchenware, combining style and functionality for your culinary needs",
+    img: "/projects/kitchen.jpg",
+    items : ["Pots and pans (stainless steel, non-stick, cast iron)",
+    "Baking sheets and pans",
+    "Rolling pins",
+    "Knives",
+    "Cutting boards",
+    "Graters",
+    "..more"],
+    services : `Elevate your culinary experience with our premium selection of kitchenware. We offer a comprehensive range of high-quality cookware, bakeware, cutlery, and kitchen gadgets designed to enhance your cooking and dining experience. From durable pots and pans to stylish dinnerware and innovative food preparation tools, we provide everything you need to create delicious meals and memorable moments in your kitchen. We prioritize quality, functionality, and style, ensuring that our products meet the demands of both aspiring home cooks and seasoned chefs.`
+})  %>
+<%- include('partials/footer') %>

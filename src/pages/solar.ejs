@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+<%- include('partials/sidebar') %>
+<%- include('partials/banner', {
+    title : 'Solars - Catalogue',
+})  %>
+<div class="cs-section-height"></div>
+<%- include('partials/blog', {
+    title : 'Solar Services',
+    desc: "We provide Solar Products and Services",
+    img: "/projects/solar.jpg",
+    items : ["Solar Lighting",
+    "Solar Gysers",
+    "Solar panels",
+    "Solar Batteries",
+    "Acccessories"],
+    services : `Empower your home or business with sustainable energy solutions. We offer a comprehensive range of high-quality solar products and services, designed to meet all your energy needs. From efficient solar lighting systems that illuminate your spaces with clean, renewable power, to reliable solar geysers that provide hot water without relying on traditional energy sources, we've got you covered. Our selection of high-performance solar panels ensures optimal energy capture, while our durable solar batteries provide dependable storage for uninterrupted power. We also offer a wide array of accessories to complete your solar setup. Trust us to guide you through the transition to solar energy, providing expert installation, maintenance, and support every step of the way`
+})  %>
+<%- include('partials/footer') %>
