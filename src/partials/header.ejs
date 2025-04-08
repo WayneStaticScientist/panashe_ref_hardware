@@ -39,7 +39,7 @@
                 <!-- Start Main Header Left Area -->
                 <div class="cs_main_header_left">
                     <div class="cs-logi-header-logo">
-                        <a class="cs_site_branding" href="index-2.html">
+                        <a class="cs_site_branding" href="/">
                             <img src="/assets/img/logo_black_text.png" alt="Logo" />
                         </a>
                     </div>
@@ -51,19 +51,19 @@
                     <div class="cs_nav cs_medium">
                         <ul class="cs_nav_list">
                             <li class="">
-                                <a href="/" class="cs-text_b_line"><span>Home</span></a>
+                                <a href="/" class=" <%= page=='home' ? 'active-header' : '' %>"  ><span>Home </span></a>
                             </li>
                             <li>
-                                <a href="/about" class="cs-text_b_line"><span>About</span></a>
+                                <a href="/about" class="<%= page=='about' ? 'active-header' : '' %>"><span>About</span></a>
                             </li>
                             <li>
-                                <a href="/services" class="cs-text_b_line"><span>Service</span></a>
+                                <a href="/services" class="<%= page=='services' ? 'active-header' : '' %>"><span>Service</span></a>
                             </li>
                             <li>
-                                <a href="/catalogues" class="cs-text_b_line"><span>Catalogues</span></a>
+                                <a href="/catalogues" class="<%= page=='catalogues' ? 'active-header' : '' %>"><span>Catalogues</span></a>
                             </li>
                             <li>
-                                <a href="/contact" class="cs-text_b_line"><span>Contact</span></a>
+                                <a href="/contact" class="<%= page=='contact' ? 'active-header' : '' %>"><span>Contact</span></a>
                             </li>
                         </ul>
                     </div>
@@ -73,7 +73,7 @@
                 <!-- Start Main Header Right Area -->
                 <div class="cs_main_header_right">
                     <div class="cs-header-additional-item">
-                        <a href="order-tracking.html"><span class="cs_accent_color">+</span> Track Your Order</a>
+                        <a href="#"><span class="cs_accent_color">+</span> Track Your Order</a>
                     </div>
                     <div class="cs_toolbox">
                         <span class="cs_icon_btn">
@@ -108,9 +108,9 @@
                     <div class="cs-header-phone-number">
                         <span>Make a Call</span>
                         <div>
-                            <h6 class="cs-text-style-h6 cs-text_b_line">
+                            <span class=" cs-text_b_line">
                                 +263 719 401 405
-                            </h6>
+                            </span>
                         </div>
                     </div>
                 </div>
